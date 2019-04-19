@@ -1,0 +1,61 @@
+body{
+background: url(img1.jpg);
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+
+.bg-leaf{
+  background-color: rgba(30, 130, 76, 0.5);
+}
+
+.navbar-brand
+{
+     color: orange !important;
+     font-family: 'Pacifico', cursive;
+   }
+.navbar-nav a
+   {
+     color: white !important;
+     font-family: 'Montserrat', sans-serif;
+
+   }
+.navbar-nav a:hover {
+     color: orange !important;
+   }
+
+
+.text-box {
+  height: 200px;
+  text-align: center;
+  /* background: #c0c0c0; */
+  /* border: #a0a0a0 solid 1px; */
+    padding:30px;
+    margin: 80px 80px 0px 80px;
+
+}
+
+.text {
+  display: inline-block;
+  vertical-align: middle;
+  width: 400px;
+  padding: 10px 15px;
+  /* border: black solid 1px; */
+  /* background: blue; */
+  color: white;
+  position: relative;
+ }
+.btn-success{
+  background-color: rgba(30, 130, 76, 1);
+  border: black solid 0px;
+}
+.button-div{
+  /* border: black solid 1px; */
+  text-align: center;
+  margin: 10px 80px 0px 80px;
+
+}
